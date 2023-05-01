@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My styled page</title>
+    <link rel="stylesheet" href="generalStyles.css">
+    <link rel="stylesheet" href="indexStyles.css">
+</head>
+    <script>
+        window.onload = function() {
+        var container = document.querySelector('.container');
+        container.classList.add('show');
+        };
+    </script>
+    <body>
+        <div class="header">
+            <img src="UTHM image.png" alt="UTHM">
+        </div>
+        <div class="container">
+            <div class="text">
+            <!-- Main content -->
+                <h1>Ng Wai Kit</h1>
+                <p>Welcome to my styled page.</p>
+                <p>I am a UTHM IT student with a passion for learning</p>
+                <!-- Site navigation menu -->
+                <div class="link-container">
+                    <p><a href="biodata.html">Learn more about me!</a></p>
+                    <p><a href="memory.html">Here are my great memories</a></p>
+                    <p><a href="mydreamjob.html">My Dream Job</a></p>
+                </div>
+            </div>
+            <div id="passport-photo-container" >
+                <img id="passport-photo" src="Passport Photo.png" alt="Image not found">
+            </div>
+        </div>
+        <div class="footer">
+            For Web Development BIT21503 Lab 3
+        </div>
+    </body>
+</html>
